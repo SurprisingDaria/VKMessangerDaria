@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="kDialogCellReuseidentifier" id="KGk-i7-Jjw" customClass="DialogTableViewCell" customModule="VKMessenger" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kozlovsky" translatesAutoresizingMaskIntoConstraints="NO" id="wkq-he-Tjv">
+                        <rect key="frame" x="8" y="8" width="44" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="NpJ-6l-TSk"/>
+                            <constraint firstAttribute="height" constant="44" id="qfW-RS-zDV"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="22"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipsToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23:55" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2H-Wj-kco">
+                        <rect key="frame" x="272" y="8" width="40" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="qu3-iS-U5A"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Данила Козловский" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQ0-0b-jjf">
+                        <rect key="frame" x="60" y="8" width="212" height="20"/>
+                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Привет!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qn-C2-Xr2">
+                        <rect key="frame" x="59.5" y="33" width="244.5" height="18"/>
+                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="15"/>
+                        <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="MQ0-0b-jjf" firstAttribute="top" secondItem="wkq-he-Tjv" secondAttribute="top" id="3dW-GW-jEW"/>
+                    <constraint firstItem="1Qn-C2-Xr2" firstAttribute="bottom" secondItem="wkq-he-Tjv" secondAttribute="bottom" id="9bP-RK-hcq"/>
+                    <constraint firstItem="MQ0-0b-jjf" firstAttribute="leading" secondItem="wkq-he-Tjv" secondAttribute="trailing" constant="8" id="AaG-y5-hXQ"/>
+                    <constraint firstAttribute="bottom" secondItem="wkq-he-Tjv" secondAttribute="bottom" constant="8" id="CdR-wr-sar"/>
+                    <constraint firstAttribute="trailing" secondItem="f2H-Wj-kco" secondAttribute="trailing" constant="8" id="G8h-eQ-uBw"/>
+                    <constraint firstItem="1Qn-C2-Xr2" firstAttribute="leading" secondItem="wkq-he-Tjv" secondAttribute="trailing" constant="8" id="H6h-iO-QUF"/>
+                    <constraint firstItem="wkq-he-Tjv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Kgf-Zl-kv6"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1Qn-C2-Xr2" secondAttribute="trailing" constant="8" id="c4W-bO-zKs"/>
+                    <constraint firstItem="f2H-Wj-kco" firstAttribute="top" secondItem="MQ0-0b-jjf" secondAttribute="top" id="cEE-ak-7ko"/>
+                    <constraint firstItem="f2H-Wj-kco" firstAttribute="leading" secondItem="MQ0-0b-jjf" secondAttribute="trailing" id="iwS-UZ-LiX"/>
+                    <constraint firstItem="wkq-he-Tjv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="v3Y-0S-PKF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatar" destination="wkq-he-Tjv" id="Ruf-MK-8aG"/>
+                <outlet property="messageText" destination="1Qn-C2-Xr2" id="NSJ-3r-dLf"/>
+                <outlet property="time" destination="f2H-Wj-kco" id="Ttt-OH-vwb"/>
+                <outlet property="title" destination="MQ0-0b-jjf" id="Cm4-YM-1Vo"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="kozlovsky" width="235" height="307"/>
+    </resources>
+</document>

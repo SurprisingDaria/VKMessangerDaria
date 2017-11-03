@@ -1,0 +1,32 @@
+PODS:
+  - Agrume (3.2.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyJSON (3.1.4)
+  - VK-ios-sdk (1.4.6)
+
+DEPENDENCIES:
+  - Agrume (from `https://github.com/JanGorman/Agrume.git`)
+  - SDWebImage (~> 3.8)
+  - SwiftyJSON
+  - VK-ios-sdk
+
+EXTERNAL SOURCES:
+  Agrume:
+    :git: https://github.com/JanGorman/Agrume.git
+
+CHECKOUT OPTIONS:
+  Agrume:
+    :commit: 50ce3665bb7ae946dbed32d3e86306dd32a65b32
+    :git: https://github.com/JanGorman/Agrume.git
+
+SPEC CHECKSUMS:
+  Agrume: abf26210c3371bc6c74bbf2ced7a19d937bf8f0a
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  VK-ios-sdk: 7fd48bc5aaa6b96c3197c1987eb6593f2ea67331
+
+PODFILE CHECKSUM: 06899a841f79f90babce6692f785b5be1a9c08dc
+
+COCOAPODS: 1.2.0
